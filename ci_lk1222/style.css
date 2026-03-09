@@ -1,0 +1,1090 @@
+@charset "utf-8";
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: #F4F4F4;
+    color: #000000;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+p,
+section.secret h2,
+section.obvious h2,
+section.combination h2,
+section.realization h2,
+section.teach div.teach h2,
+section.prisoner h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 700px;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+br {
+    display: block;
+}
+
+br.sp_br,
+picture img.h1_sp,
+p.achievers1_sp,
+p.achievers2_sp,
+p.achievers3_sp {
+    display: none;
+}
+
+p.achievers1,
+p.achievers2,
+p.achievers3,
+picture img.h1_pc {
+    display: block;
+}
+
+/* fontsize */
+em {
+    font-size: 10rem;
+    font-weight: 600;
+}
+
+h1 span.h1_bold,
+span.h1_blue,
+span.h1_pink {
+    font-size: 5rem;
+}
+
+span.header_bold,
+span.placenta_extract {
+    font-size: 4rem;
+}
+
+div.header_back p,
+span.whole_body,
+span.whole_body2,
+span.top_class,
+span.penetration,
+span.repeat,
+span.urgent_addition {
+    font-size: 3.8rem;
+}
+
+span.plenty,
+span.dense,
+span.skin,
+span.true,
+span.point,
+span.whole_body_care,
+span.swamp,
+span.feeling,
+span.method,
+span.one,
+span.get_it,
+span.fr,
+span.deferred_payment,
+span.rush,
+span.prisoner,
+span.sold_out {
+    font-size: 3.4rem;
+}
+
+span.black_bold,
+span.black,
+p span.this,
+span.mother,
+span.shortage,
+span.deep_part,
+span.dont_know,
+span.god,
+span.fluffy_and_chewy,
+span.evidence,
+span.change,
+span.overturn,
+span.clear,
+span.kinds,
+span.rewind,
+span.bold,
+span.skin_texture,
+span.fluffy,
+span.great_value,
+span.wash,
+span.class,
+span.tax_included,
+span.and,
+span.four {
+    font-size: 3rem;
+}
+
+p.beautiful {
+    font-size: 2rem;
+}
+
+span.small {
+    font-size: 1.6rem;
+}
+
+span.h1_blue {
+    color: #78afff;
+}
+
+span.bright_blue {
+    color: #5a90e0;
+}
+
+span.h1_pink {
+    color: #fa57cc;
+}
+
+span.pink_bold {
+    color: #fa57cc;
+    font-size: 3.2rem;
+}
+
+span.pink,
+strong.magazine,
+p.pink {
+    color: #ff00ff;
+}
+
+span.red {
+    color: #ff0000;
+}
+
+span.blue {
+    color: #0047b2;
+}
+
+.marker {
+    display: inline-block;
+    background: linear-gradient(#ffff00) no-repeat 0 80% / 100% 30%;
+}
+
+p.shocking_facts {
+    margin-top: 10px;
+}
+
+p.ac {
+    margin-bottom: 10px;
+}
+
+p.mother,
+p.achievers1,
+p.achievers2,
+p.change {
+    margin-bottom: 20px;
+}
+
+p.mustsee,
+p.actually,
+video.favorite,
+p.antenna,
+p.care,
+p.moisturizing,
+p.piece,
+p.sales_start,
+p.switching,
+p.porcelain_skin,
+p.sensitive_dry_skin,
+video.springy,
+p.joy,
+p.achievers3,
+p.deep_part,
+p.dont_know,
+video.finger,
+p.crotch,
+p.trouble,
+p.cause,
+p.unsanitary,
+p.inside,
+video.wash2,
+p.top_class,
+p.component,
+p.care,
+section.combination h2,
+video.placenta,
+p.placenta,
+p.penetration,
+p.moreover,
+video.turnover,
+p.wash1,
+section.secret h2,
+p.magazine,
+p.detailed,
+p.worries,
+p.apply_to_skin,
+p.penet,
+p.time,
+p.beauty_ingredients,
+p.dense,
+p.skin,
+h2.whole_body2,
+video.wash3,
+p.cutting_edge,
+p.repeat,
+p.repeat_img,
+p.reach,
+p.mother_img,
+video.skin,
+p.great_value,
+div.video-box,
+p.official_website,
+p.small,
+p.stop,
+p.official,
+p.get_it,
+p.free,
+p.easy,
+div.urgent_addition_back,
+p.effect,
+section.prisoner h2,
+video.stratum_corneum {
+    margin-bottom: 30px;
+}
+
+strong.Opening_a_store {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+p.arrow,
+video.collapse,
+p.evidence,
+p.actually,
+p.it_works,
+video.bathroom,
+video.push,
+p.wash,
+video.spin_around,
+p.point,
+p.foam2,
+p.peace,
+p.true,
+p.episode,
+p.correct_answer,
+div.teach,
+p.class,
+p.moreover,
+p.fit,
+p.feeling,
+p.one,
+p.comparison,
+p.regular_bondage1,
+p.deferred_payment,
+p.regular_bondage2,
+p.for_now,
+p.cta1,
+p.rush,
+p.end,
+p.four,
+p.line_up4,
+p.increase,
+p.attention,
+p.detail,
+p.note {
+    margin-bottom: 40px;
+}
+
+p.aim,
+p.difference,
+p.common_sense,
+p.shocking_facts,
+p.ba,
+p.flash,
+video.touch_the_bubbles,
+p.skin_texture,
+p.lipscosme,
+p.past,
+p.cta2,
+div.header_flex {
+    margin-bottom: 70px;
+}
+
+/* line-hight */
+section.prisoner h2 {
+    line-height: 3;
+}
+
+p.dense,
+p.point,
+p.correct_answer,
+p.feeling,
+p.deep_part,
+p.detail,
+p.peace,
+p.for_now,
+section.suddenly h2,
+p.ev,
+p.deep_part,
+p.switching,
+p.joy,
+p.top_class,
+p.easy,
+p.detail,
+p.magazine,
+p.overturn,
+p.moreover,
+p.time,
+p.skin,
+p.correct_answer,
+p.irregular {
+    line-height: 1.8;
+}
+
+p.mustsee,
+p.placenta,
+p.actually,
+p.correct_answer,
+p.difference,
+p.evidence,
+p.easy,
+p.for_now,
+p.topic,
+p.detailed {
+    line-height: 1.6;
+}
+
+/* header */
+header p {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+div.header_back {
+    background-color: #1b1b1b;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 0px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+div.header_back p {
+    color: #fff;
+    font-weight: 600;
+}
+
+span.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+
+.header_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.header_flex>* {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.header_flex img,
+.header_flex video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+div.woman video {
+    max-width: 330px;
+}
+
+p.topic {
+    margin-bottom: 30px;
+}
+
+/* section suddenly */
+section.suddenly h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+span.red_bold,
+strong.Opening_a_store {
+    color: #ff0000;
+    font-size: 3rem;
+}
+
+p.unpleasant {
+    max-width: 720px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+span.yellowback,
+strong.magazine {
+    background-color: #ffff00;
+}
+
+video.beauty_ingredients {
+    max-width: 720px;
+    margin-bottom: 70px;
+}
+
+span.beauty_salon {
+    font-size: 3.5rem;
+}
+
+strong.Opening_a_store {
+    font-weight: 600;
+}
+
+strong.magazine,
+span.switching {
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+video.favorite {
+    max-width: 680px;
+    height: 290px;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 30px;
+}
+
+.marquee img {
+    display: inline-block;
+    animation: scroll 15s linear infinite;
+    height: 250px;
+    width: auto;
+    flex-shrink: 0;
+}
+
+.marquee2 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 30px;
+}
+
+.marquee2 img {
+    display: inline-block;
+    animation: scroll 15s linear infinite;
+    height: 250px;
+    width: auto;
+    flex-shrink: 0;
+}
+
+/* section secret */
+section.secret span.ci_lk {
+    font-size: 3.5rem;
+}
+
+video.touch_the_bubbles {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    object-position: center 60%; 
+}
+
+.achievers1,
+.achievers2,
+.achievers3 {
+    display: inline-block;
+    border: 3px solid #f48d92;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #fcf5f5;
+}
+
+/* section obvious */
+section.obvious h2 {
+    text-align: left;
+}
+
+section.obvious h2.impact {
+    border-left: 6px solid #0047b2;
+    padding-left: 12px;
+    line-height: 1.4;
+    border-bottom: 1px solid #999;
+    margin-bottom: 30px;
+}
+
+div.blackback {
+    background-color: #1b1b1b;
+}
+
+div.blackback p {
+    color: #fff;
+    font-size: 5rem;
+}
+
+p.overturn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* section.combination */
+video.apply_to_skin {
+    height: 500px;
+    object-fit: cover;
+}
+
+p.penet,
+p.apply_to_skin {
+    font-size: 1.4rem;
+    text-align: right;
+    font-weight: 400;
+}
+
+video.apply_to_skin {
+    height: 500px;
+    object-fit: cover;
+}
+
+video.penetration {
+    height: 340px;
+    object-fit: cover;
+}
+
+/* section.realization */
+video.bathroom {
+    height: 700px;
+    object-fit: cover;
+}
+
+video.push {
+    height: 630px;
+    object-fit: cover;
+}
+
+video.spin_around {
+    height: 600px;
+    object-fit: cover;
+}
+
+.video-box {
+    width: 100%;
+    height: 460px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.video-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.teach div.teach h2 {
+    border-left: 10px solid #fc48c9;
+    padding-left: 12px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    background-color: #f6d2ec;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* section.teach */
+span.how {
+    font-size: 5rem;
+}
+
+/* section emergency */
+div.urgent_addition_back {
+    background-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p.urgent_addition {
+    color: #fff
+}
+
+p.mes {
+    margin-bottom: 40px;
+}
+
+/* section prisoner */
+footer {
+    font-size: 1.2rem;
+}
+
+div.link {
+    display: flex;
+    justify-content: center;
+}
+
+a.privacy,
+a.specific {
+    margin-right: 20px;
+    color: #4682b4;
+}
+
+@media (max-width: 670px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    div.header_back p {
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 440px) {
+    .wrapper {
+        width: 100%;
+    }
+    video.touch_the_bubbles {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center 60%; 
+}
+
+    .scroll-arrow span {
+        transform: translateX(-50%) rotate(45deg) translateZ(0);
+        -webkit-transform: translateX(-50%) rotate(45deg) translateZ(0);
+
+        animation: arrowMove 2.5s infinite;
+        -webkit-animation: arrowMove 2.5s infinite;
+
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+    }
+
+    p.achievers1,
+    p.achievers2,
+    p.achievers3 {
+        display: none;
+    }
+
+    p.achievers1_sp,
+    p.achievers2_sp,
+    p.achievers3_sp {
+        display: block;
+    }
+
+    .achievers1_sp, .achievers2_sp, .achievers3_sp {
+        display: inline-block;
+        border: 3px solid #f48d92;
+        padding: 8px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        background-color: #fcf5f5;
+    }
+
+    p, section.secret h2, section.obvious h2, section.combination h2, section.realization h2, section.teach div.teach h2, section.prisoner h2 {
+        font-weight: 600;
+    }
+
+    br.sp_br {
+        display: block;
+    }
+
+    div.header_back {
+        background-color: #1b1b1b;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 8px 0px;
+        margin-top: 8px;
+        margin-bottom: 30px;
+    }
+
+    /* fontsize */
+    em {
+        font-size: 7rem;
+    }
+
+    h1 span.h1_bold,
+    span.h1_blue,
+    span.h1_pink,
+    div.blackback p,
+    span.how {
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+
+    div.header_back p,
+    span.header_bold,
+    span.pink_bold,
+    span.beauty_salon,
+    strong.magazine, span.switching,
+    span.plenty, span.dense, span.skin, span.true, span.point, span.whole_body_care, span.swamp, span.feeling, span.method, span.one, span.get_it, span.fr, span.deferred_payment, span.rush, span.sold_out, span.repeat, span.urgent_addition {
+        font-size: 2.7rem;
+        font-weight: 600;
+    }
+
+    h1, span.placenta_extract,
+    span.Mustsee_sp,
+    section.secret span.ci_lk,
+    div.header_back p, span.whole_body, span.whole_body2, span.top_class, span.penetration {
+        font-size: 2.6rem;
+        font-weight: 600;
+    }
+
+    span.red_bold,
+    strong.Opening_a_store span.black, p span.this, span.mother, span.shortage, span.deep_part, span.dont_know, span.god, span.fluffy_and_chewy, span.evidence, span.change, span.overturn, span.clear, span.kinds, span.rewind, span.bold, span.skin_texture, span.fluffy, span.great_value, span.wash, span.tax_included, span.and, span.four, span.salon_sp, strong.Opening_a_store {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    span.black_bold,
+    span.red_bold,
+    span.black_bold, span.black, p span.this, span.mother, span.shortage, span.deep_part, span.dont_know, span.god, span.fluffy_and_chewy, span.evidence, span.change, span.overturn, span.clear, span.kinds, span.rewind, span.bold, span.skin_texture, span.fluffy, span.great_value, span.wash, span.tax_included, span.and, span.four, span.prisoner, span.sp_big {
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+
+    span.class,
+    p.repeat {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    section.suddenly h2,
+    header p,
+    p,
+    section.secret h2,
+    section.obvious h2,
+    section.combination h2,
+    section.realization h2,
+    section.teach div.teach h2,
+    section.prisoner h2 {
+        font-size: 1.9rem;
+        font-weight: 400;
+    }
+
+    p.beautiful {
+        font-size: 1.6rem;
+    }
+
+    /* line-height */
+    p.true,
+    p.wash,
+    p.great_value {
+        line-height: 1.7;
+    }
+
+    p.topic {
+        line-height: 1.4;
+    }
+
+    div.blackback p {
+        line-height: 1.3;
+    }
+
+    /* bottom */
+    p.aim, p.difference, p.common_sense, p.shocking_facts, p.ba, p.flash, video.touch_the_bubbles, p.skin_texture, p.lipscosme, p.past, p.cta2, div.header_flex, video.beauty_ingredients {
+        margin-bottom: 50px;
+    }
+
+    p.arrow, video.collapse, p.evidence, p.actually, p.it_works, video.bathroom, video.push, p.wash, video.spin_around, p.point, p.foam2, p.peace, p.true, p.episode, p.correct_answer, div.teach, p.class, p.moreover, p.fit, p.feeling, p.one, p.comparison, p.regular_bondage1, p.deferred_payment, p.regular_bondage2, p.for_now, p.cta1, p.rush, p.end, p.four, p.line_up4, p.increase, p.attention, p.detail, p.note {
+        margin-bottom: 30px;
+    }
+
+    .arrow-container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    div.blackback {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    video.favorite {
+        max-width: 430px;
+        height: 170px;
+        object-fit: cover;
+        display: block;
+        overflow: hidden;
+    }
+
+    video.penetration {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    video.apply_to_skin {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    video.bathroom,
+    video.push,
+    video.spin_around {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .video-box {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        background: #fff;
+    }
+
+    footer {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 402px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    section.suddenly h2, header p, p, section.secret h2, section.obvious h2, section.combination h2, section.realization h2, section.teach div.teach h2, section.prisoner h2 {
+        font-size: 1.7rem;
+    }
+
+    div.header_back p, span.header_bold, span.pink_bold, span.beauty_salon, strong.magazine, span.switching, span.plenty, span.dense, span.skin, span.true, span.point, span.whole_body_care, span.swamp, span.feeling, span.method, span.one, span.get_it, span.fr, span.deferred_payment, span.rush, span.sold_out, span.repeat, span.urgent_addition {
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+
+    h1, span.placenta_extract, span.Mustsee_sp, section.secret span.ci_lk, div.header_back p, span.whole_body, span.whole_body2, span.top_class, span.penetration {
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+
+    span.red_bold, strong.Opening_a_store span.black, p span.this, span.mother, span.shortage, span.deep_part, span.dont_know, span.god, span.fluffy_and_chewy, span.evidence, span.change, span.overturn, span.clear, span.kinds, span.rewind, span.bold, span.skin_texture, span.fluffy, span.great_value, span.wash, span.tax_included, span.and, span.four, span.salon_sp, strong.Opening_a_store {
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+
+    span.black_bold, span.red_bold, span.black_bold, span.black, p span.this, span.mother, span.shortage, span.deep_part, span.dont_know, span.god, span.fluffy_and_chewy, span.evidence, span.change, span.overturn, span.clear, span.kinds, span.rewind, span.bold, span.skin_texture, span.fluffy, span.great_value, span.wash, span.tax_included, span.and, span.four, span.prisoner, span.sp_big {
+        font-size: 2.1rem;
+        font-weight: 600;
+    }
+
+    h1 span.h1_bold, span.h1_blue, span.h1_pink, div.blackback p, span.how {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    span.class, p.repeat {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    section.prisoner h2 {
+        margin-bottom: 10px;
+    }
+
+    video.favorite {
+        max-width: 380px;
+        height: 150px;
+        object-fit: cover;
+        display: block;
+        overflow: hidden;
+    }
+
+    video.penetration {
+        height: 180px;
+        object-fit: cover;
+    }
+
+    video.apply_to_skin {
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:375px) {
+    .arrow-container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:360px) {
+    div.header_back p, span.header_bold, span.pink_bold, span.beauty_salon, strong.magazine, span.switching, span.plenty, span.dense, span.skin, span.true, span.point, span.whole_body_care, span.swamp, span.feeling, span.method, span.one, span.get_it, span.fr, span.deferred_payment, span.rush, span.sold_out, span.repeat, span.urgent_addition {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    h1, span.placenta_extract, span.Mustsee_sp, section.secret span.ci_lk, div.header_back p, span.whole_body, span.whole_body2, span.top_class, span.penetration, span.red_bold, strong.Opening_a_store span.black, p span.this, span.mother, span.shortage, span.deep_part, span.dont_know, span.god, span.fluffy_and_chewy, span.evidence, span.change, span.overturn, span.clear, span.kinds, span.rewind, span.bold, span.skin_texture, span.fluffy, span.great_value, span.wash, span.tax_included, span.and, span.four, span.salon_sp, strong.Opening_a_store {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    span.black_bold, span.red_bold, span.black_bold, span.black, p span.this, span.mother, span.shortage, span.deep_part, span.dont_know, span.god, span.fluffy_and_chewy, span.evidence, span.change, span.overturn, span.clear, span.kinds, span.rewind, span.bold, span.skin_texture, span.fluffy, span.great_value, span.wash, span.tax_included, span.and, span.four, span.prisoner, span.sp_big {
+        font-size: 1.9rem;
+        font-weight: 600;
+    }
+
+    span.class, p.repeat {
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+
+    em {
+        font-size: 5.5rem;
+    }
+
+    video.favorite {
+        max-width: 380px;
+        height: 140px;
+        object-fit: cover;
+        display: block;
+        overflow: hidden;
+    }
+
+    video.penetration {
+        height: 160px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:320px) {
+    h1 span.h1_bold, span.h1_blue, span.h1_pink, div.blackback p, span.how {
+        font-size: 2.6rem;
+        font-weight: 600;
+    }
+
+    div.header_back {
+        background-color: #1b1b1b;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 8px 0px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+
+    header h1, p.mustsee, p.actually, video.favorite, p.antenna, p.care, p.moisturizing, p.piece, p.sales_start, p.switching, p.porcelain_skin, p.sensitive_dry_skin, video.springy, p.joy, p.achievers3, p.deep_part, p.dont_know, video.finger, p.crotch, p.trouble, p.cause, p.unsanitary, p.inside, video.wash2, p.top_class, p.component, p.care, section.combination h2, video.placenta, p.placenta, p.penetration, p.moreover, video.turnover, p.wash1, section.secret h2, p.magazine, p.detailed, p.worries, p.apply_to_skin, p.penet, p.time, p.beauty_ingredients, p.dense, p.skin, h2.whole_body2, video.wash3, p.cutting_edge, p.repeat, p.repeat_img, p.reach, p.mother_img, video.skin, p.great_value, div.video-box, p.official_website, p.small, p.stop, p.official, p.get_it, p.free, p.easy, div.urgent_addition_back, p.effect, section.prisoner h2, video.stratum_corneum, p.topic {
+        margin-bottom: 20px;
+    }
+
+    section.suddenly h2, header p, p, section.secret h2, section.obvious h2, section.combination h2, section.realization h2, section.teach div.teach h2, section.prisoner h2 {
+        font-size: 1.5rem;
+    }
+
+    div.header_back p, span.header_bold, span.pink_bold, span.beauty_salon, strong.magazine, span.switching, span.plenty, span.dense, span.skin, span.true, span.point, span.whole_body_care, span.swamp, span.feeling, span.method, span.one, span.get_it, span.fr, span.deferred_payment, span.rush, span.sold_out, span.repeat, span.urgent_addition {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    p.aim, p.difference, p.common_sense, p.shocking_facts, p.ba, p.flash, video.touch_the_bubbles, p.skin_texture, p.lipscosme, p.past, p.cta2, div.header_flex, video.beauty_ingredients {
+        margin-bottom: 30px;
+    }
+
+    video.favorite {
+        max-width: 380px;
+        height: 120px;
+        object-fit: cover;
+        display: block;
+        overflow: hidden;
+    }
+
+    h1, span.placenta_extract, span.Mustsee_sp, section.secret span.ci_lk, div.header_back p, span.whole_body, span.whole_body2, span.top_class, span.penetration, span.red_bold, strong.Opening_a_store span.black, p span.this, span.mother, span.shortage, span.deep_part, span.dont_know, span.god, span.fluffy_and_chewy, span.evidence, span.change, span.overturn, span.clear, span.kinds, span.rewind, span.bold, span.skin_texture, span.fluffy, span.great_value, span.wash, span.tax_included, span.and, span.four, span.salon_sp, strong.Opening_a_store {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    span.black_bold, span.red_bold, span.black_bold, span.black, p span.this, span.mother, span.shortage, span.deep_part, span.dont_know, span.god, span.fluffy_and_chewy, span.evidence, span.change, span.overturn, span.clear, span.kinds, span.rewind, span.bold, span.skin_texture, span.fluffy, span.great_value, span.wash, span.tax_included, span.and, span.four, span.prisoner, span.sp_big {
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+
+    video.touch_the_bubbles {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    p.beautiful,
+    span.small {
+        font-size: 1.4rem;
+    }
+
+    p.penet, p.apply_to_skin {
+        font-size: 1.2rem;
+        text-align: right;
+        font-weight: 400;
+    }
+
+    span.class, p.repeat {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    video.penetration {
+        height: 140px;
+        object-fit: cover;
+    }
+}
+
+
+ /* Safari/iOS用 */
+    @-webkit-keyframes arrowMove {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateX(-50%) translateY(0) rotate(45deg);
+            transform: translateX(-50%) translateY(0) rotate(45deg);
+        }
+
+        30% {
+            opacity: 0.4;
+        }
+
+        60% {
+            opacity: 0.8;
+        }
+
+        100% {
+            opacity: 0;
+            -webkit-transform: translateX(-50%) translateY(30px) rotate(45deg);
+            transform: translateX(-50%) translateY(30px) rotate(45deg);
+        }
+    }
+    @keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
