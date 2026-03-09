@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta
+      name="description"
+      content="美容意識の高い方はもう始めてます!臭いも不快感もクリア!好きピに愛されるモチフワおまんたへ。インフルエンサーがこぞって手に入れている今話題の全身に使えるフェムケアウォッシュ【CI-LK】"
+    />
+    <title>臭いも不快感もクリア！好きピに愛されるモチフワおまんたへ</title>
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+
+    <link rel="icon" href="img/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'">
+
+   <link
+  rel="preload"
+  as="image"
+  href="img/header_sp.webp"
+  media="(max-width: 768px)"
+>
+
+<link
+  rel="preload"
+  as="image"
+  href="img/header_pc.webp"
+  media="(min-width: 769px)"
+>
+
+    <style>
+      .pink-heart {
+        color: #fa57cc;
+      }
+      .scroll-arrow {
+        position: relative;
+        width: 40px;
+        height: 60px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+      }
+
+      .scroll-arrow span {
+        position: absolute;
+        left: 50%;
+        width: 30px;
+        height: 30px;
+        border-bottom: 3px solid #ff00ff;
+        border-right: 3px solid #ff00ff;
+        transform: translateX(-50%) rotate(45deg);
+        opacity: 0;
+        animation: arrowMove 2.5s infinite;
+        will-change: transform, opacity; /* ★これ大事 */
+      }
+
+      .scroll-arrow span:nth-child(1) { animation-delay: 0s; }
+      .scroll-arrow span:nth-child(2) { animation-delay: .4s; }
+      .scroll-arrow span:nth-child(3) { animation-delay: .8s; }
+
+      @keyframes arrowMove {
+        0% {
+          opacity: 0;
+          transform: translateX(-50%) translateY(0) rotate(45deg);
+        }
+        30% {
+          opacity: .4;
+        }
+        60% {
+          opacity: .8;
+        }
+        100% {
+          opacity: 0;
+          transform: translateX(-50%) translateY(30px) rotate(45deg);
+        }
+      }
+
+      .animated-btn a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .animated-btn {
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        user-select: none;
+        overflow: hidden;
+        animation: bouncePause 2s infinite;
+      }
+
+      .animated-btn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -150%;
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(
+          120deg,
+          transparent 0%,
+         rgba(255, 255, 255, 0.4) 50%,
+          transparent 100%
+        );
+        transform: skewX(-20deg);
+        animation: shine 2s infinite;
+      }
+
+      @keyframes bouncePause {
+        /* 1回目バウンド */
+        0%   { transform: translateY(0); }
+        10%  { transform: translateY(-20px); }
+        20%  { transform: translateY(0); }
+
+        /* 2回目バウンド */
+        30%  { transform: translateY(-12px); }
+        40%  { transform: translateY(0); }
+
+        /* 止まる時間 */
+        55%  { transform: translateY(0); }
+
+        /* 3回目バウンド */
+        65%  { transform: translateY(-20px); }
+        75%  { transform: translateY(0); }
+
+        /* 4回目バウンド */
+        85%  { transform: translateY(-12px); }
+        100% { transform: translateY(0); }
+      }
+
+      @keyframes shine {
+        0%   { left: -100%; }
+        40%  { left: -100%; } 
+        70%  { left: 100%; }
+        100% { left: 100%; }
+      }
+      .arrows {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-bottom: 70px;
+      }
+
+      .arrow {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: #ff0000;
+        animation: arrow-float 1.0s ease-in-out infinite;
+      }
+
+      .arrow::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-top: 35px solid #ff0000;
+      }
+
+      @keyframes arrow-float {
+        0% {
+          transform: translateY(-8px);
+          opacity: 0;
+        }
+        30% {
+          opacity: 1;
+        }
+        50% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(12px);
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <p class="fcp-text">CI-LK フェムケアウォッシュ</p>
+        <h1>
+          <picture>
+           <source media="(min-width: 769px)" srcset="img/header_pc.webp" type="image/webp">
+           <source media="(max-width: 768px)" srcset="img/header_sp.webp" type="image/webp" fetchpriority="high">
+
+           <source media="(min-width: 769px)" srcset="img/header_pc.jpg">
+           <source media="(max-width: 768px)" srcset="img/header_sp.jpg">
+           <img
+            src="img/header_sp.jpg"
+            alt="CI-LK フェムケアウォッシュ キービジュアル"
+            loading="auto"
+            fetchpriority="high"
+           >
+         </picture>
+         <span class="visually-hidden">
+           美容意識の高い方はもう始めてます!臭いも不快感もクリア！好きピに愛されるモチフワおまんたへ♥インフルエンサーがこぞって手に入れている今話題の全身に使えるフェムケアウォッシュ【CI-LK】ってなに？
+         </span>
+       </h1>
+
+        <div class="header_flex">
+          <p class="foam">
+            <picture>
+              <source srcset="img/foam.webp" type="image/webp" />
+              <img src="img/foam.jpg" alt="女性が泡を出している画像"   loading="lazy"/>
+            </picture>
+          </p>
+          <div class="woman">
+           <video
+              preload="metadata"
+              poster="img/woman.webp"
+              muted
+              loop
+              playsinline
+              fetchpriority="high"
+              class="move"
+            >
+             <source src="img/woman.mp4" type="video/mp4" />
+             お使いのブラウザは動画に対応していません。
+           </video>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="suddenly">
+          <h2>
+            突然ですが、女の子の日の<br /><span class="red_bold"
+              >『ムレ』『臭い』<br class="sp_br">『かゆみ』『肌荒れ』</span
+            ><br />って気になりません？
+          </h2>
+          <p class="unpleasant">
+            <picture>
+              <source srcset="img/unpleasant.webp" type="image/webp" />
+              <img
+                src="img/unpleasant.jpg"
+                alt="女性がお股をおさえて不快に感じている様子の画像"
+                loading="lazy"
+              />
+            </picture>
+          </p>
+          <p class="mustsee">
+            <span class="yellowback pink Mustsee_sp">そんな方は必見！</span
+            ><br />いま美容意識が高いインフルエンサーが<br />
+            こぞって愛用している<br /><span class="red Mustsee_sp"
+              >フェムケアウォッシュ【CI-LK】</span
+            ><br class="sp_br">をご存知ですか？
+          </p>
+           <div class="marquee">
+            <picture>
+              <source srcset="img/instagram.webp" type="image/webp" />
+              <img
+                src="img/instagram.jpg"
+                alt="CI-LKのフェムケアウォッシュを使用したお客様のSNS画像"
+              />
+            </picture>
+
+            <picture>
+              <source srcset="img/instagram.webp" type="image/webp" />
+              <img
+                src="img/instagram.jpg"
+                alt="CI-LKのフェムケアウォッシュを使用したお客様のSNS画像"
+              />
+            </picture>
+          </div>
+
+          <p class="actually">
+            実はこのフェムケアウォッシュ、<br>従来のものと違って<br>
+            <span class="red">たっぷりの美容成分</span>で<span class="red">全身にも使える</span>んです。
+          </p>
+          <video
+            width="832"
+            height="320"
+            preload="metadata"
+            muted
+            loop
+            playsinline
+            aria-label="美容成分が動き煌めく動画"
+            class="beauty_ingredients move"
+          >
+            <source src="img/beauty_ingredients.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+
+          <p class="antenna">まるで<span class="yellowback red beauty_salon">「自宅でエステ」</span>だと<br>
+            美容アンテナの高い方々から注目の的に♡
+          </p>
+          <video
+            id="myVideo2"
+            width="1920"
+            height="1080"
+            preload="none"
+            poster="img/favorite.webp"
+            muted
+            loop
+            playsinline
+            aria-label="一般の人が愛用している動画"
+            class="favorite move"
+          >
+            <source src="img/favorite.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+          <p class="care">
+            <span class="black_bold">全身まるっとトータルケア</span>できる<br><span class="pink salon_sp">エステ級のフェムケアウォッシュ</span>
+          </p>
+          <p>本当に効くの？<br>と疑いながらも試してみたら</p>
+        <div class="scroll-arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <p class="sensitive_dry_skin">敏感乾燥肌の私でも<br><span class="pink pink_bold marker">ふっくらモチ肌</span><span class="pink">に！！</span></p>
+
+        <video
+            width="832"
+            height="320"
+            preload="metadata"
+            poster="img/springy.webp"
+            muted
+            loop
+            playsinline
+            aria-label="もちもち肌動画"
+            class="springy move"
+          >
+            <source src="img/springy.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+          <p class="moisturizing">それもそのはず<br>汚れだけ落として保湿成分だけ残す<br><span class="red god">神アイテム</span>だから！</p>
+          <p class="piece">
+           <picture>
+             <source srcset="img/piece.webp" type="image/webp" />
+             <img
+               src="img/piece.jpg"
+               alt="肌の断片画像"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+          <p class="ev">その証拠に<br>このフェムケアウォッシュ【CI-LK】は<br><span class="black_bold">先進的なアイテムのみ</span>が販売される</p>
+          <strong class="Opening_a_store"><span class="yellowback">超大型企画「matsukiyoFIRE」</span>へ<br class="sp_br">選出！</strong>
+          <p class="sales_start">
+           <picture>
+             <source srcset="img/matsukiyo.webp" type="image/webp" />
+             <img
+               src="img/matsukiyo.jpg"
+               alt="マツモトキヨシ渋谷道玄坂店で販売開始！"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="magazine">さらに安心なのが<br>販売元も<strong class="magazine">超有名雑誌に掲載</strong><br class="sp_br">されてるんです！</p>
+           <div class="marquee2">
+            <picture>
+              <source srcset="img/magazine.webp" type="image/webp" />
+              <img
+                src="img/magazine.jpg"
+                alt="超有名雑誌の画像（ananやGOODAなど10種類）"
+              />
+            </picture>
+
+            <picture>
+              <source srcset="img/magazine.webp" type="image/webp" />
+              <img
+                src="img/magazine.jpg"
+                alt="超有名雑誌の画像（ananやGOODAなど10種類）"
+              />
+            </picture>
+          </div>
+
+        </section>
+        <section class="secret">
+          <h2>美容意識の高い人はもう始めてる<br><span class="pink">有名インフルエンサーも愛用</span>の<br><span class="red ci_lk">フェムケアウォッシュ【CI-LK】</span></h2>
+          <p class="wash1">
+           <picture>
+             <source srcset="img/wash1.webp" type="image/webp" />
+             <img
+               src="img/wash1.jpg"
+               alt="CI-LKウォッシュの画像"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="detailed"><span class="red">キメの細かいマシュマロ泡</span>が<br>肌をふんわり優しく包み込んで<br class="sp_br">気持ち良すぎる😍</p>
+          <video
+            width="320"
+            height="568"
+            preload="metadata"
+            poster="img/touch_the_bubbles.webp"
+            muted
+            loop
+            playsinline
+            aria-label="泡を触っている動画"
+            class="touch_the_bubbles move"
+          >
+            <source src="img/touch_the_bubbles.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+          <p class="flash">しかも<br>お股だけじゃない💡</p>
+         <p class="worries">
+          <picture>
+            <source srcset="img/worries.webp" type="image/webp" />
+            <img
+              src="img/worries.jpg"
+              alt="顔のシワ、腕のシミ、脚の乾燥の写真"
+              loading="lazy"
+            />
+          </picture>
+        </p>
+
+          <p class="aim"><span class="pink">にも美容エキスをスーッと狙い撃ち</span><br>できるから<br>フェムケアアイテムじゃないみたい！</p>
+          <p class="switching">全身のケアを<br><span class="black">CI-LKのフェムケアウォッシュだけ</span>に<br><span class="yellowback pink switching">切り替える人が続出 (　；∀；)</span></p>
+          <p class="porcelain_skin">
+           <picture>
+             <source srcset="img/porcelain_skin.webp" type="image/webp" />
+             <img
+               src="img/porcelain_skin.jpg"
+               alt="顔も腕も脚もモデルのようなつるんっと陶器肌"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="mother">私のモチフワ肌をみて<br><span class="red mother">62歳の母</span><span class="red">も試してみた</span>ところ</p>
+          <div class="arrows">
+            <span class="arrow"></span>
+            <span class="arrow"></span>
+            <span class="arrow"></span>
+          </div>
+
+          <p class="mother_img">
+           <picture>
+             <source srcset="img/mother.webp" type="image/webp" />
+             <img
+               src="img/mother.jpg"
+               alt="『62歳の母もモチフワ肌爆誕』画像"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="joy"><span class="yellowback pink this">「これこれ！！」</span><br>フェムケアウォッシュ【CI-LK】の魅力に<br><span class="red">歓喜の声が続出</span>してた✌</p>
+
+          <p class="achievers1">
+           <picture>
+             <source srcset="img/voice1.webp" type="image/webp" />
+             <img
+               src="img/voice1.jpg"
+               alt="実績者1の写真とコメント"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+         <p class="achievers2">
+           <picture>
+             <source srcset="img/voice2.webp" type="image/webp" />
+             <img
+               src="img/voice2.jpg"
+               alt="実績者2の写真とコメント"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+         <p class="achievers3">
+           <picture>
+             <source srcset="img/voice3.webp" type="image/webp" />
+             <img
+               src="img/voice3.jpg"
+               alt="実績者3の写真とコメント"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+         <p class="achievers1_sp">
+           <picture>
+             <source srcset="img/voice_sp1.webp" type="image/webp" />
+             <img
+               src="img/voice_sp1.jpg"
+               alt="実績者1の写真とコメント"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+         <p class="achievers2_sp">
+           <picture>
+             <source srcset="img/voice_sp2.webp" type="image/webp" />
+             <img
+               src="img/voice_sp2.jpg"
+               alt="実績者2の写真とコメント"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+         <p class="achievers3_sp">
+           <picture>
+             <source srcset="img/voice_sp3.webp" type="image/webp" />
+             <img
+               src="img/voice_sp3.jpg"
+               alt="実績者3の写真とコメント"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="deep_part">このエステ級フェムケアウォッシュは<br><span class="yellowback blue shortage">うるおい不足でカッピカピの肌</span>でも<br><span class="red deep_part">深部まで美容エキスが届く</span>から</p>
+
+          <video
+            width="832"
+            height="456" 
+            preload="none"
+            poster="img/stratum_corneum.webp"
+            muted
+            loop
+            playsinline
+            aria-label="角質層まで浸透する動画"
+            class="stratum_corneum move"
+          >
+            <source src="img/stratum_corneum.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+
+          <p class="dont_know"><span class="red dont_know">トラブル知らず</span>の<br><span class="pink fluffy_and_chewy">フワモチ肌</span>になれちゃうんです✨️</p>
+
+          <video
+            width="832"
+            height="456"
+            preload="none"
+            poster="img/moisture.webp"
+            muted
+            loop
+            playsinline
+            aria-label="指で潤った肌を押す動画"
+            class="finger move"
+          >
+            <source src="img/moisture.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+
+          <p class="difference"><span class="yellowback">他のフェムケアウォッシュと何が違うの？<br></span>と思っていた私も、<br>この<span class="red">秘密を知って納得</span>しました！</p>
+        </section>
+
+        <section class="obvious">
+          <h2 class="impact"><span class="red impact">衝撃の事実！</span><br>清潔にするのは当たり前？</h2>
+
+          <p class="crotch">女の子の日のお股の悩み💦</p>
+          <p class="trouble">
+           <picture>
+             <source srcset="img/trouble.webp" type="image/webp" />
+             <img
+               src="img/trouble.jpg"
+               alt="ツンっとした臭い/痛みのある乾燥/ポツポツのニキビ/じめっとしたムレ/ヒリヒリとしたかゆみ/なかなか消えない黒ずみといったトラブル"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="cause">これらの原因は</p>
+
+          <p class="unsanitary">
+           <picture>
+             <source srcset="img/unsanitary.webp" type="image/webp" />
+             <img
+               src="img/unsanitary.jpg"
+               alt="不衛生な状態による細菌やカビ"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="common_sense">というのはもう常識ですが・・・</p>
+          <p class="ac">実は、</p>
+          <div class="blackback">
+            <p>最大の原因は<br><span class="red">ホルモンバランスの乱れ</span></p>
+          </div>
+          <p class="shocking_facts">という衝撃の事実😱</p>
+          <p class="irregular">ストレスや不規則な生活、<br>生理周期の変動によって<br><span class="yellowback">お股のトラブルを引き起こす</span>んだって。</p>
+
+          <video
+            width="832"
+            height="456"
+            preload="none"
+            poster="img/collapse.webp"
+            muted
+            loop
+            playsinline
+            aria-label="肌の層が崩れる動画"
+            class="collapse move"
+          >
+            <source src="img/collapse.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+
+          <p class="evidence">いくら洗っても<span class="blue">肌トラブルを繰り返す</span>のは<br>まさに<span class="red evidence">肌の内側を整えていない証拠</span>…</p>
+          <p class="inside">
+           <picture>
+             <source srcset="img/inside.webp" type="image/webp" />
+             <img
+               src="img/inside.jpg"
+               alt="肌の表面だけ綺麗で内側が汚い皮膚のイラスト断面画像"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="change">これまでいろんな商品を試してきたけど、<br>何を使っても<span class="red change">変化なし</span>。</p>
+          <em class="big">そんな中！</em>
+          <p class="overturn"><span class="yellowback pink overturn">デリケートゾーンケアの常識を<br class="sp_br">覆した</span>のが<br>今話題の全身に使える<br><span class="red whole_body">フェムケアウォッシュ【CI-LK】</span></p>
+
+          <video
+            width="624"
+            height="832"
+            preload="metadata"
+            poster="img/wash2.webp"
+            muted
+            loop
+            playsinline
+            aria-label="CI-LKウォッシュの動画"
+            class="wash2 move"
+          >
+            <source src="img/wash2.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+
+          <p class="top_class">なんと<br>ホルモンバランスの肌変化に対応する<br><span class="pink">整え配合成分数が<span class="yellowback top_class">業界トップクラス！</span></span></p>
+          <p class="component">
+            <picture>
+              <source srcset="img/component.webp" type="image/webp" />
+              <img
+                src="img/component.jpg"
+                alt="一般的なデリケートゾーンウォッシュは平均15種類の美容成分配合。CI-LK薬用インティメートウォッシュは27種類の美容成分の配合を表した画像。"
+                loading="lazy"
+              />
+            </picture>
+          </p>
+
+          <p class="care"><span class="bright_blue">医薬部外品の基準を<span class="clear">クリア</span></span>した<br><span class="yellowback red kinds">27種類</span>もの美容成分が<br><span class="black_bold">洗う＋整えるケア</span>を実現。</p>
+          <p class="ba">
+           <picture>
+             <source srcset="img/ba.webp" type="image/webp" />
+             <img
+               src="img/ba.jpg"
+               alt="（左画像）肌のキメが乱れている（右画像）肌のキメが整っている"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+        </section>
+
+        <section class="combination">
+          <h2>さらに、<br><span class="black_bold">世界三大美女クレオパトラ</span>も愛す<br><span class="pink placenta_extract">プラセンタエキス</span><br>が贅沢に配合✨️</h2>
+          <video
+            width="832"
+            height="416"
+            preload="none"
+            poster="img/placenta.webp"
+            muted
+            loop
+            playsinline
+            aria-label="プラセンタエキスのイメージ動画"
+            class="placenta move"
+          >
+            <source src="img/placenta.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+          <p class="placenta">人間と同じ哺乳類（豚や馬）の<br><span class="pink">赤ちゃんを守る強い胎盤</span>から<br>抽出された成分だから</p>
+          <p class="pink penetration">人の肌にすごく<span class="yellowback pink penetration">浸透*しやすい</span>！</p>
+          <video
+            width="2000"
+            height="2000"
+            preload="none"
+            poster="img/penetration.webp"
+            muted
+            loop
+            playsinline
+            aria-label="プラセンタエキスが肌に浸透するイメージ動画"
+            class="penetration move"
+          >
+            <source src="img/penetration.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+          <p class="penet">*角質層まで</p>
+          <p class="moreover">しかも、<br><span class="bold">ターンオーバーを促進</span>して<br><span class="yellowback bold">肌の新陳代謝を活発にしてくれる</span><br class="sp_br">んだって！</p>
+          <video
+            width="832"
+            height="456"
+            preload="metadata"
+            poster="img/turnover.webp"
+            muted
+            loop
+            playsinline
+            aria-label="肌の断片でターンオーバー促進している動画"
+            class="turnover move"
+          >
+            <source src="img/turnover.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+          <p class="time">それだけじゃない！<br><span class="pink"><span class="rewind">時を巻き戻す美容成分</span>も</span><br><span class="pink yellowback plenty">たっぷり配合！</span></p>
+          <p class="beauty_ingredients">
+           <picture>
+             <source srcset="img/beauty_ingredients.webp" type="image/webp" />
+             <img
+               src="img/beauty_ingredients.jpg"
+               alt="代表的な成分『和ローズの花エキス』『水溶性コラーゲン』『黄金シルクエキス』『プラセンタエキス』4種類&27種類の美容成分を1つにぎゅっと贅沢配合を表した画像"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="dense">だから<br><span class="pink yellowback dense">とにかく濃密。<br>なのにやさしい洗浄で<br>スーッと浸透*。</span></p>
+          <video
+            width="360"
+            height="480"
+            preload="metadata"
+            poster="img/apply_to_skin.webp"
+            muted
+            loop
+            playsinline
+            aria-label="肌にウォッシュを塗っているイメージ動画"
+            class="apply_to_skin move"
+          >
+            <source src="img/apply_to_skin.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+           <p class="apply_to_skin">*角質層まで</p>
+           <p class="skin">実際に使ったそばから<br>ついつい触りたくなっちゃう<br><span class="pink yellowback skin">フワモチ肌</span>に！</p>
+           <video
+            width="832"
+            height="456"
+            preload="metadata"
+            poster="img/skin.webp"
+            muted
+            loop
+            playsinline
+            aria-label="使用後のもちもちな肌のイメージ動画"
+            class="skin move"
+          >
+            <source src="img/skin.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+          <p class="skin_texture">これこそ<br><span class="yellowback skin_texture">肌の内側までキメが整っている証拠</span><br class="sp_br">だよね。</p>
+        </section>
+        <section class="realization">
+          <h2>しつこい肌トラブルに悩まされていた私でも<br><span class="pink fluffy">モチフワ肌</span>を実現できた<br>エステ級のフェムケアウォッシュというのが</h2>
+          <div class="scroll-arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+         <h2 class="whole_body2">この<br class="sp_br"><span class="red whole_body2">フェムケアウォッシュ【CI-LK】</span></h2>
+         <video
+            width="2474"
+            height="1528" 
+            preload="none"
+            poster="img/wash3.webp"
+            muted
+            loop
+            playsinline
+            aria-label="CI-LKウォッシュのおしゃれな動画"
+            class="wash3 move"
+          >
+            <source src="img/wash3.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+          <p class="actually">実はこれ<br><span class="red">日本最大級のコスメ・美容サービス「LIPS」</span>や<br><span class="red">コスメ・化粧品・美容の総合情報サイト「@cosme」</span><br>にも掲載されている</p>
+          <p class="cutting_edge"><span class="yellowback sp_big">話題の最先端フェムケアアイテム</span>！</p>
+          <p class="lipscosme">
+           <picture>
+             <source srcset="img/lips@cosme.webp" type="image/webp" />
+             <img
+               src="img/lips@cosme.jpg"
+               alt="LIPSと@cosmeの実際の写真"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="repeat">リピート希望者は脅威の<span class="red repeat marker">98.4%</span>！！</p>
+          <p class="repeat_img">
+           <picture>
+             <source srcset="img/repeat.webp" type="image/webp" />
+             <img
+               src="img/repeat.jpg"
+               alt="試した人の98.4%リピート決定！（体験モニターをお申込後、本品を単品ではなく定期お届けコースで購入された方の割合）を表した画像"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="it_works">本当に効くの？<br>実際に使ってみました！</p>
+          <p class="reach">注文から３日後には届いていました。<br>さっそくお風呂へ♫</p>
+          <video
+            width="320"
+            height="568" 
+            preload="none"
+            poster="img/bathroom.webp"
+            muted
+            loop
+            playsinline
+            aria-label="商品を持ってお風呂場に向かう動画"
+            class="bathroom move"
+          >
+            <source src="img/bathroom.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+          <p class="true">手に出してみると<br>本当に<span class="pink true">ふわっふわのモチモチ泡</span>！<br>1回の<span class="yellowback">使用量は4〜5プッシュ</span>くらい。</p>
+          <div class="crop-bottom">
+          <video
+            width="320"
+            height="568"
+            preload="metadata"
+            poster="img/push.webp"
+            muted
+            loop
+            playsinline
+            aria-label="プッシュして泡を手に出している動画"
+            class="push move"
+          >
+            <source src="img/push.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+          </div>
+          <p class="wash">マシュマロ泡でお股を<br>優しく包み込むように洗う。</p>
+          <video
+            width="320"
+            height="568"
+            preload="none"
+            poster="img/spin_around.webp"
+            muted
+            loop
+            playsinline
+            aria-label="泡を肌につけてくるくるしている動画"
+            class="spin_around move"
+          >
+            <source src="img/spin_around.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+          <p class="point">ポイントは<span class="red yellowback point">肌に触れないこと！</span><br>摩擦は<span class="blue">肌荒れの原因</span>になるので、<br>泡を肌と手の間でコロコロ動かすイメージ！</p>
+          <p class="foam2">
+           <picture>
+             <source srcset="img/foam2.webp" type="image/webp" />
+             <img
+               src="img/foam2.jpg"
+               alt="泡を肌と手の間でコロコロ動かすイメージ！の画像"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="peace">出しすぎ？<span class="yellowback red">ご安心を。</span><br>たっぷりの泡であるほど<br><span class="pink">成分がしっかり肌に浸透*</span>します♡</p>
+          <video
+            width="2286"
+            height="1326"
+            preload="none"
+            poster="img/leg.webp"
+            muted
+            loop
+            playsinline
+            aria-label="つるつるな肌の動画"
+            class="move"
+          >
+            <source src="img/leg.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+          <p class="beautiful">（本当に私のお肌？ってくらいキレイに😭）</p>
+          <p class="apply_to_skin">*角質層まで</p>
+          <p class="great_value">もちろん、<br><span class="pink whole_body_care">顔や腕、脚などもケア</span>!<br><span class="yellowback red great_value">一度に全身ケアできるなんてお得</span>すぎ。</p>
+          <div class="video-box">
+           <video
+            width="1920"
+            height="1080" 
+            preload="none"
+            poster="img/woman2.webp"
+            muted
+            loop
+            playsinline
+            aria-label="女性の肌(顔・腕・脚)がツヤツヤぷるぷるの動画"
+            class="woman2 move"
+          >
+            <source src="img/woman2.mp4" type="video/mp4" />
+            お使いのブラウザは動画に対応していません。
+          </video>
+          </div>
+          <p>これは<span class="red swamp">沼りアイテム</span>！！<br>私以外の反響もすごくて・・</p>
+          <p>
+           <picture>
+             <source srcset="img/message.webp" type="image/webp" />
+             <img
+               src="img/message.jpg"
+               alt="私以外の反響『好きピからデートのお誘いが♥』『前より旦那が愛を伝えてくれる！』『彼氏によく嫉妬されるようになった（笑）』"
+              loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="episode">とモテエピソードが次々と💌</p>
+          <p class="correct_answer">いつものボディウォッシュを<br><span class="yellowback red wash">フェムケアウォッシュ【CI-LK】</span>に<br>変えるだけなんだけど…<br><span class="pink">本当に試して正解だった！</span></p>
+          <p class="great_value">
+            <picture>
+              <source srcset="img/great_value.webp" type="image/webp" />
+              <img
+                src="img/great_value.jpg"
+                alt="ここから先は当ページからしか得られない超お得情報を特別公開！↓↓↓"
+                loading="lazy"
+              />
+            </picture>
+          </p>
+
+        </section>
+
+        <section class="teach">
+          <div class="teach">
+            <h2><span class="red">前代未聞の94%OFF!？</span><br>一番お得な方法教えます!</h2>
+          </div>
+          <p class="class">一度使ったら<br class="sp_br">もう他のウォッシュには戻れない<br><span class="pink class">エステ級のフェムケアウォッシュ【CI-LK】</span></p>
+          <p class="small">唯一の難点はお値段💦<br><span class="small">（やっぱり質が良いものは高いですよね…）</span></p>
+          <p class="official_website">
+           <picture>
+             <source srcset="img/official_website.webp" type="image/webp" />
+             <img
+               src="img/official_website.jpg"
+               alt="CI-LK公式サイト（金額に丸）をつけた画像"
+               loading="lazy"
+             />
+           </picture>
+         </p>
+
+          <p class="moreover">しかも</p>
+          <p class="fit">
+            <picture>
+              <source srcset="img/fit.webp" type="image/webp" />
+              <img
+                src="img/fit.jpg"
+                alt="女性が「初めてだと自分の肌に合うか不安（汗）」と言っている画像"
+                loading="lazy"
+              />
+            </picture>
+          </p>
+
+          <p class="feeling"><span class="feeling">その気持ち、痛いほど分かる😭</span><br>・・でもちょっと待って！</p>
+          <p class="stop">
+           <picture>
+             <source srcset="img/stop.webp" type="image/webp">
+             <img src="img/stop.jpg" alt="女の人がストップを出している画像" loading="lazy">
+           </picture>
+         </p>
+
+          <p class="mes">私が<br><span class="yellowback red method">最もお得に試せる方法</span><span class="red">を<br class="sp_br">お伝えします！</span></p>
+          <div class="arrows">
+            <span class="arrow"></span>
+            <span class="arrow"></span>
+            <span class="arrow"></span>
+          </div>
+         <p><span class="red">公式の期間限定ページ</span>なら<br>通常価格8,800円のフェムケアウォッシュが<br><span class="red how">なんと！500円<span class="tax_included">(税込)</span>！</p>
+         <p class="official">
+          <picture>
+            <source srcset="img/official.webp" type="image/webp">
+            <img src="img/official.jpg" alt="【公式の限定ページ】なら通常価格8,800円のフェムケアウォッシュが94%OFFの送料無料500円（税込）!を表す画像" loading="lazy">
+          </picture>
+        </p>
+
+         <p class="one">公式サイトだと定価でしか買えないので<br><span class="pink one">ワンコインで手に入る</span>のは超お得！</p>
+        <p class="comparison">
+         <picture>
+           <source srcset="img/comparison.webp" type="image/webp">
+           <img src="img/comparison.jpg" alt="通常価格8,800円→定期初回価格500円で8,300円の差額同じ商品でも今買えばこれだけお得!" loading="lazy">
+         </picture>
+       </p>
+
+         <p>さらに！！<br><span class="yellowback pink">特大割引</span>にくわえて</p>
+         <p class="get_it"><span class="red get_it">3日分のお試しパウチ<br><span class="and">&</span><br>全身に使える<br>インティメート美容クリーム</span><br>が<span class="yellowback fr">無料</span>でもらえる！</p>
+          <p class="free">
+           <picture>
+             <source srcset="img/free.webp" type="image/webp">
+             <img src="img/free.jpg" alt="送料無料の3日分お試しパウチ&全身に使えるインティメート美容クリーム（3回毎のお届けタイミングについてくる!クリームは全身に使用可能。通常価格8,800円が0円。）" loading="lazy">
+           </picture>
+         </p>
+
+          <p class="easy"><span class="yellowback">簡単手続きで解約もできる</span>ので、<br>もし魅力を感じれなくても<br><span class="pink">2回目が届く心配もなし</span>！</p>
+          <p class="regular_bondage1">
+            <picture>
+              <source srcset="img/regular_bondage1.webp" type="image/webp">
+              <img src="img/regular_bondage1.jpg" alt="定期縛り一切なしを表す画像" loading="lazy">
+            </picture>
+          </p>
+
+          <p class="deferred_payment"><span class="red deferred_payment">後払いもできる</span>から<br>自分に合った支払いができるのも嬉しい！</p>
+          <p class="regular_bondage2">
+           <picture>
+             <source srcset="img/regular_bondage2.webp" type="image/webp">
+             <img src="img/regular_bondage2.jpg" alt="商品が届いたらコンビニなどで支払いOK" loading="lazy">
+           </picture>
+         </p>
+
+          <p class="for_now"><span class="yellowback">お得に買える今のうちに<br>ぜひ一回でも試してみてください！</span></p>
+          <p class="cta1 animated-btn">
+            <a href="">
+              <picture>
+                <source srcset="img/cta.webp" type="image/webp">
+                <img src="img/cta.png" alt="なくなり次第終了94%OFF!500円（税込）送料無料。今すぐお得に試してみる!" loading="lazy">
+              </picture>
+            </a>
+          </p>
+
+        </section>
+        <section class="emergency">
+          <div class="urgent_addition_back">
+            <p class="urgent_addition"><span class="urgent_addition">※ 緊急追記 ※</span><br>早くも在庫のこりわずかに…！</p>
+          </div>
+          <p class="rush"><span class="pink">最先端の大人気アイテム</span>なだけあって<br><span class="red rush">注文殺到中みたい！</span></p>
+          <p class="past"><span class="yellowback">過去に2回も在庫切れ</span>が起こってるので<br>いつ終わるかわかりませんね…。</p>
+          <p class="end">
+           <picture>
+             <source srcset="img/end.webp" type="image/webp">
+             <img src="img/end.jpg" alt="【大変、申し訳ございません。ご好評につき、注文が殺到しています。】お得にお届け便は、予想以上に反響をいただいており、完売次第終了させていただきます。今月入荷分は新規お申込受付中！残りあとわずかです！" loading="lazy">
+           </picture>
+         </p>
+
+          <p class="four">ちなみに私は今も愛用中で<br>もう<span class="pink four">４本目に突入中</span>！笑</p>
+          <p class="line_up4">
+            <picture>
+              <source srcset="img/line_up4.webp" type="image/webp">
+              <img src="img/line_up4.jpg" alt="4本目に突入中!イメージ画像" loading="lazy">
+            </picture>
+          </p>
+
+          <p>私の場合は、<br><span class="red">2本目を使い切ったあたり</span>から<br>効果を実感しました！</p>
+          <br>
+          <p class="effect">
+           <picture>
+             <source srcset="img/effect.webp" type="image/webp">
+             <img src="img/effect.jpg" alt="周りの人からの反応「好きな人できた？」「ファンデーション変えた？」「美容医療はじめた？」を表す画像" loading="lazy">
+           </picture>
+         </p>
+
+          <p class="increase">なんて聞かれることも増えました✨️</p>
+        </section>
+        <section class="prisoner">
+          <h2>今ではもう、<br><span class="prisoner">CI-LKのフェムケアウォッシュの<span class="pink">虜♡</span></span></h2>
+          <p class="attention">
+            <picture>
+              <source srcset="img/attention.webp" type="image/webp">
+              <img src="img/attention.jpg" alt="【注目スペシャルポイント】1.初回94%OFF 2.全国どこでも送料無料 3.途中解約OK! 4.配送サイクル変更可能 5.定期縛りなし 6.コンビニ後払いOK 7.決済手数料永久無料 8.3日分お試しパウチ無料 9.3回毎にインティメート美容クリームがついてくる!" loading="lazy">
+            </picture>
+          </p>
+
+          <p class="detail">気になった方は<span class="yellowback sold_out">売り切れる前に</span><br><span class="pink">今すぐ詳細をチェック</span>してみてください！</p>
+          <p class="cta2 animated-btn">
+            <a href="">
+             <picture>
+               <source srcset="img/cta.webp" type="image/webp">
+               <img src="img/cta.png" alt="なくなり次第終了94%OFF!500円（税込）送料無料。今すぐお得に試してみる!" loading="lazy">
+             </picture>
+           </a>
+         </p>
+
+          <p class="note">
+            <picture>
+              <source srcset="img/note.webp" type="image/webp">
+              <img src="img/note.jpg" alt="この記事は検索しても出てきません。リンク先のページに飛べない場合はキャンペーン終了の可能性があります" loading="lazy">
+            </picture>
+          </p>
+
+        </section>
+      </main>
+
+      <footer>
+        <div class="link">
+          <a href="" class="privacy">プライバシーポリシー</a>
+          <a href="" class="specific">特定商取引法に基づく表示</a>
+        </div>
+        <small>©CI-LK All Rights Reserved.</small>
+      </footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const videos = document.querySelectorAll(".move");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const video = entry.target;
+
+      if (entry.isIntersecting) {
+        if (video.paused) {
+          video.play().catch(() => {});
+        }
+      } else {
+        video.pause(); // ← これが超重要
+      }
+    });
+  }, {
+    threshold: 0.25
+  });
+
+  videos.forEach(video => observer.observe(video));
+});
+</script>
+
+    </div>
+  </body>
+</html>
